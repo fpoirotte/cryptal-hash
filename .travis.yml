@@ -18,9 +18,6 @@ php:
 
 matrix:
     fast_finish: true
-    allow_failures:
-    - php: nightly
-    - php: hhvm
 
 notifications:
     email: false

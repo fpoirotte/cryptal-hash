@@ -21,7 +21,6 @@ abstract class Common extends AbstractContextBasedAlgorithm
     protected static function checkSupport()
     {
         $mapping  = array(
-            (string) HashEnum::HASH_CRC32()     => 'crc32',
             (string) HashEnum::HASH_MD2()       => 'md2',
             (string) HashEnum::HASH_MD4()       => 'md4',
             (string) HashEnum::HASH_MD5()       => 'md5',

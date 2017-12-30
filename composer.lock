@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fpoirotte/cryptal.git",
-                "reference": "8cb43228a99401e4b4974c77f97c9415ca69cae2"
+                "reference": "14058e9d9a3377f87f178db9ea3fbfae0d79881a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fpoirotte/cryptal/zipball/8cb43228a99401e4b4974c77f97c9415ca69cae2",
-                "reference": "8cb43228a99401e4b4974c77f97c9415ca69cae2",
+                "url": "https://api.github.com/repos/fpoirotte/cryptal/zipball/14058e9d9a3377f87f178db9ea3fbfae0d79881a",
+                "reference": "14058e9d9a3377f87f178db9ea3fbfae0d79881a",
                 "shasum": ""
             },
             "require": {
@@ -68,7 +68,7 @@
                 "mcrypt",
                 "openssl"
             ],
-            "time": "2017-12-30T12:03:26+00:00"
+            "time": "2017-12-30T12:15:29+00:00"
         },
         {
             "name": "fpoirotte/enum-trait",

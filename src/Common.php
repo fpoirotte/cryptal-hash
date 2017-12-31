@@ -26,10 +26,10 @@ abstract class Common extends AbstractContextBasedAlgorithm
             (string) HashEnum::HASH_MD5()       => 'md5',
             (string) HashEnum::HASH_RIPEMD160() => 'ripemd160',
             (string) HashEnum::HASH_SHA1()      => 'sha1',
-            (string) HashEnum::HASH_SHA2_224()    => 'sha224',
-            (string) HashEnum::HASH_SHA2_256()    => 'sha256',
-            (string) HashEnum::HASH_SHA2_384()    => 'sha384',
-            (string) HashEnum::HASH_SHA2_512()    => 'sha512',
+            (string) HashEnum::HASH_SHA2_224()  => 'sha224',
+            (string) HashEnum::HASH_SHA2_256()  => 'sha256',
+            (string) HashEnum::HASH_SHA2_384()  => 'sha384',
+            (string) HashEnum::HASH_SHA2_512()  => 'sha512',
         );
 
         static::$supportedAlgos = array_intersect($mapping, hash_algos());
